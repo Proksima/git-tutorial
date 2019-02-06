@@ -158,7 +158,15 @@ previous states of the repository.
 
 ## Efficient Prototyping
 
-## Distributed Environments
+### Branches
+
+### Merging
 
 ## Managing Datasets
+
+### Pulling
+
+### Pushing
+
+## Distributed Environments
 
