@@ -78,7 +78,7 @@ you should see the following:
 basically telling us that we have a new file in the repository waiting to be
 commited. At any point, if you change your mind and decide you want to flush the
 changes you made since the last commit, running `git checkout master` will do
-the trick. We will see next section why that is.
+the trick. We will see, by the end of the tutorial, why that is.
 
 For now, I am happy with this change, so I will be committing it:
 
@@ -124,11 +124,39 @@ Alternatively, running
 
 will automatically commit the changes in every tracked files in the repository.
 
-### Branching & Merging
-
 ### Commit History
 
+One of the most trivial feature of version-control software is to be able to
+inspect the history of commits. The standard way of doing this in git is by
+running the `git log` command which, for our dummy repository, will display
+something looking like this:
+
+	commit a3077c056467a771ba6bc63d391370545b04f7c5
+	Author: Damien Levac <damien.levac@gmail.com>
+	Date:   Wed Feb 6 14:17:47 2019 -0500
+
+	    Modified main.c and added todo.txt.
+
+	commit f42c98929493d2085cc7497c8f3800a814fd978a
+	Author: Damien Levac <damien.levac@gmail.com>
+	Date:   Wed Feb 6 14:09:25 2019 -0500
+
+	    Added main.c.
+
+A more concise, and maybe more useful way to look at a commit history, is with
+the `git reflog` command, which include short references to each event and the
+action performed on the repository (`git commit` is not the only way to change
+the state of the repository):
+
+	a3077c0 HEAD@{0}: commit: Modified main.c and added todo.txt.
+	f42c989 HEAD@{1}: commit (initial): Added main.c
+
+This view of the history is particularly useful when we want to operate on the
+previous states of the repository.
+
 ### Backtracking
+
+## Efficient Prototyping
 
 ## Distributed Environments
 
