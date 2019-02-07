@@ -24,13 +24,13 @@ ratio of usefulness with respect to the difficulty of learning it.
 
 ## Table of Content
 
-1- [Git Basics](https://github.com/Proksima/git-tutorial/basics.md)
+- [Git Basics](https://github.com/Proksima/git-tutorial/basics.md)
 
-2- Applications
+- Applications
 
-	* [Efficient Prototyping](https://github.com/Proksima/git-tutorial/examples/prototyping.md)
+	- [Efficient Prototyping](https://github.com/Proksima/git-tutorial/examples/prototyping.md)
 
-	* [Managing Datasets](https://github.com/Proksima/git-tutorial/examples/datasets.md)
+	- [Managing Datasets](https://github.com/Proksima/git-tutorial/examples/datasets.md)
 
-	* [Distributed Environments](https://github.com/Proksima/git-tutorial/examples/environments.md)
+	- [Distributed Environments](https://github.com/Proksima/git-tutorial/examples/environments.md)
 
