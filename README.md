@@ -28,9 +28,9 @@ ratio of usefulness with respect to the difficulty of learning it.
 
 - Applications
 
-	- [Efficient Prototyping](https://github.com/Proksima/git-tutorial/examples/prototyping.md)
+	- [Efficient Prototyping](https://github.com/Proksima/git-tutorial/blob/master/examples/prototyping.md)
 
-	- [Managing Datasets](https://github.com/Proksima/git-tutorial/examples/datasets.md)
+	- [Managing Datasets](https://github.com/Proksima/git-tutorial/blob/master/examples/datasets.md)
 
-	- [Distributed Environments](https://github.com/Proksima/git-tutorial/examples/environments.md)
+	- [Distributed Environments](https://github.com/Proksima/git-tutorial/blob/master/examples/environments.md)
 
