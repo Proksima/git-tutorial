@@ -24,7 +24,7 @@ ratio of usefulness with respect to the difficulty of learning it.
 
 ## Table of Content
 
-- [Git Basics](https://github.com/Proksima/git-tutorial/blob/master/basics.md)
+- [Basics](https://github.com/Proksima/git-tutorial/blob/master/basics.md)
 
 - Applications
 
@@ -33,4 +33,14 @@ ratio of usefulness with respect to the difficulty of learning it.
 	- [Managing Datasets](https://github.com/Proksima/git-tutorial/blob/master/examples/datasets.md)
 
 	- [Distributed Environments](https://github.com/Proksima/git-tutorial/blob/master/examples/environments.md)
+
+## xkcd
+
+* [Git](https://xkcd.com/1597)
+
+* [Git Commit](https://xkcd.com/1296)
+
+* [Algorithms](https://xkcd.com/1667)
+
+Do not forget to hover your mouse on the pictures for the alt-text!
 
