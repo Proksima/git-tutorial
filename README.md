@@ -145,7 +145,7 @@ something looking like this:
 
 A more concise, and maybe more useful way to look at a commit history, is with
 the `git reflog` command, which include short references to each event and the
-action performed on the repository (`git commit` is not the only way to change
+actions performed on the repository (`git commit` is not the only way to change
 the state of the repository):
 
 	a3077c0 HEAD@{0}: commit: Modified main.c and added todo.txt.
@@ -155,6 +155,36 @@ This view of the history is particularly useful when we want to operate on the
 previous states of the repository.
 
 ### Backtracking
+
+Sometimes we commit code that should never have made it into the repository, but
+the issues they introduced were understood too late.
+
+There are multiple ways in git to revert to a previous commit or simply recover
+some files or anything in between. To avoid a full discussion on how git is
+based on graph theory, I will show you only one: the most useful.
+
+To illustrate, I added a "cool" feature in my example repository:
+
+	b1c1c19 HEAD@{0}: commit: Cool feature that makes the code segfault.
+	a3077c0 HEAD@{1}: commit: Modified main.c and added todo.txt.
+	f42c989 HEAD@{2}: commit (initial): Added main.c
+
+What we will do is create a new commit which is the inverse of the embarassing
+commit:
+
+	git revert HEAD@{0}
+
+Yielding
+
+	0e89925 HEAD@{0}: revert: Revert "Cool feature that makes the code segfault."
+	b1c1c19 HEAD@{1}: commit: Cool feature that makes the code segfault.
+	a3077c0 HEAD@{2}: commit: Modified main.c and added todo.txt.
+	f42c989 HEAD@{3}: commit (initial): Added main.c
+
+It should be noted that when multiple revert are desired, they should be
+executed from oldest to earliest to avoid conflicts as much as possible. If a
+conflict do occur, git will annotate the problems and will let you fix them
+before commiting again.
 
 ## Efficient Prototyping
 
