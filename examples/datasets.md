@@ -23,7 +23,7 @@ Follow the steps for "Getting Started" in your dataset repository (you might
 need to "invent" a custom extension for the filenames so that `git lfs` can
 track them).
 
-## A CS-Specific Use-Case
+## A CS-Specific Use Case
 
 A lot of researchers at McGill hold their datasets in their home directory. Home
 directory at CS are on an NFS share. This means I/O operations are actually
