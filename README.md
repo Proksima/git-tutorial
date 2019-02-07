@@ -24,7 +24,7 @@ ratio of usefulness with respect to the difficulty of learning it.
 
 ## Table of Content
 
-- [Git Basics](https://github.com/Proksima/git-tutorial/basics.md)
+- [Git Basics](https://github.com/Proksima/git-tutorial/blob/master/basics.md)
 
 - Applications
 
