@@ -133,7 +133,9 @@ the state of the repository):
 	f42c989 HEAD@{1}: commit (initial): Added main.c
 
 This view of the history is particularly useful when we want to operate on the
-previous states of the repository.
+previous states of the repository. However, keep in mind that `git reflog` only
+contains **local** information: a `git clone` wouldn't carry over the additional
+information.
 
 ## Backtracking
 

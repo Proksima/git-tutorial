@@ -2,7 +2,7 @@
 
 This application is actually often use as the "selling point" of git. Other just
 consider it one of the most common workflow (assuming we leave out the "I don't
-really understand what I am doing so I am just commiting linearly" workflow"):
+really understand what I am doing so I am just commiting linearly" workflow):
 branching and merging!
 
 The idea in a nutshell is:
