@@ -34,6 +34,8 @@ ratio of usefulness with respect to the difficulty of learning it.
 
 	- [Distributed Environments](https://github.com/Proksima/git-tutorial/blob/master/examples/environments.md)
 
+- [Cheatsheet](https://github.com/Proksima/git-tutorial/blob/master/cheatsheet.md)
+
 ## xkcd
 
 * [Git](https://xkcd.com/1597)
